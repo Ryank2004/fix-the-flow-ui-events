@@ -80,25 +80,32 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 
-/* button1 */
+/* button 1 */
 .sizeBigger{
 width: 12em;
 text-align: center;
 }
 
-/* button2 */
+/* button 2 */
 .backgroundColor{
   background-color: red;
 }
 
 /* button 3 */
 .rotate {
-  animation-duration: 2s;
-  animation-name: rotate;
-  animation-iteration-count: 1;
-  rotate: 360deg;
+ transition: transform 2s ease;
+ transform: rotate(360deg);
 }
 
+/* button 4 */
+.backgroundColor{
+  background-color: red;
+}
+/* button 5 */
+.hoverSize {
+  width: 8em;
+  text-align: center;
+}
 
-
+/* button 6 */
 
