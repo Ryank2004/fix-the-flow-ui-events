@@ -79,3 +79,26 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+
+/* button1 */
+.sizeBigger{
+width: 12em;
+text-align: center;
+}
+
+/* button2 */
+.backgroundColor{
+  background-color: red;
+}
+
+/* button 3 */
+.rotate {
+  animation-duration: 2s;
+  animation-name: rotate;
+  animation-iteration-count: 1;
+  rotate: 360deg;
+}
+
+
+
+
