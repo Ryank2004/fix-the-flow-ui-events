@@ -106,3 +106,13 @@ touchEnd.addEventListener('animationend', touchEndHandler)
 function touchEndHandler() {
   touchEnd.classList.toggle('spin')
 }
+// button 10
+
+let touchMove = document.querySelector('a:nth-of-type(10)')
+
+touchMove.addEventListener('touchmove', touchMoveHandler)
+touchMove.addEventListener('animationend', touchMoveHandler)
+
+function touchMoveHandler() {
+  touchMove.classList.toggle('flip')
+}
