@@ -86,3 +86,13 @@ mouseoutInteraction.addEventListener('animationend', exitHandler)
 function exitHandler() {
   mouseoutInteraction.classList.toggle('nietWegGaan')
 }
+
+// button 8
+let touchStart = document.querySelector('a:nth-of-type(8)')
+
+touchStart.addEventListener('touchstart', touchStartHandler)
+touchStart.addEventListener('animationend', touchStartHandler)
+
+function touchStartHandler() {
+  touchStart.classList.toggle("jumping")
+}
