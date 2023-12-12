@@ -66,3 +66,23 @@ sprint5.addEventListener('mouseover', function() {
 sprint5.addEventListener('mouseout', function() {
     sprint5.classList.remove('hoverSize');
 });
+
+// button 6
+let fix = document.querySelector('a:nth-of-type(6)')
+
+fix.addEventListener('wheel', wheelHandler)
+fix.addEventListener('animationend', wheelHandler)
+
+function wheelHandler() {
+  fix.classList.toggle('discoDance')
+}
+
+// button 7
+let mouseoutInteraction = document.querySelector('a:nth-of-type(7)')
+
+mouseoutInteraction.addEventListener('mouseout', exitHandler)
+mouseoutInteraction.addEventListener('animationend', exitHandler)
+
+function exitHandler() {
+  mouseoutInteraction.classList.toggle('nietWegGaan')
+}
