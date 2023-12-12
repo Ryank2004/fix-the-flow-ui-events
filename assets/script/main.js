@@ -96,3 +96,13 @@ touchStart.addEventListener('animationend', touchStartHandler)
 function touchStartHandler() {
   touchStart.classList.toggle("jumping")
 }
+// button 9
+
+let touchEnd = document.querySelector('a:nth-of-type(9)')
+
+touchEnd.addEventListener('touchend', touchEndHandler)
+touchEnd.addEventListener('animationend', touchEndHandler)
+
+function touchEndHandler() {
+  touchEnd.classList.toggle('spin')
+}

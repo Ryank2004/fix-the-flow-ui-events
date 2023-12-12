@@ -176,3 +176,21 @@ text-align: center;
   animation-iteration-count: 5;
   animation-timing-function: ease-in-out;
 }
+
+/* button 9 */
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.spin {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.250, 0.250, 0.455, 1.575);
+}
